@@ -4,4 +4,8 @@ cmake_minimum_required(VERSION 3.10)
 project(helloworld)
 
 # 添加可执行文件
-add_executable(helloworld main.cpp)
+add_executable(main
+	src/main.cpp
+    include/student.h
+    src/student.cpp
+)
